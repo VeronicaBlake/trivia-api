@@ -1,7 +1,7 @@
 export default class Game{
     constructor({question, correct_answer, incorrect_answers}){
         this.question = question 
-        this.answers  = [correct_answer , incorrect_answers]
+        this.answers  = [correct_answer, incorrect_answers]
     }
 
     get Template(){

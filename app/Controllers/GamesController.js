@@ -19,4 +19,8 @@ export default class GamesController{
     getAll(url){
         gameService.getAllGames(url)
     }
+
+    shuffleAns(){
+        gameService.shuffleAns
+    }
 }
